@@ -1,0 +1,115 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background: rgb(232, 216, 223);
+    background: radial-gradient(circle, rgb(232, 216, 223) 0%, rgb(243, 173, 205) 100%);
+}
+
+h1, h2, h3 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: brown;
+}
+
+p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+.heading {
+    color: rgb(207, 17, 102);
+    font-size: 45px ;
+    padding-top: 45px;
+}
+
+.icon-container {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.icon-container div {
+    width: 33%;
+    padding: 40px 40px;
+}
+
+/* Coconut */
+#straw {
+    transform-origin: center;
+    transition: all 0.5s ease-in-out;
+}
+
+#coconut:hover #coconut-peel {
+    fill: green;
+}
+
+#coconut:hover #straw {
+    transform: rotate(-45deg);
+}
+
+/* Peach */
+#leaves {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#leaf-bones {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#peach:hover #peach-bg-small {
+    fill: #AA0024;
+}
+
+#peach:hover #leaves {
+    fill: #98AA00;
+    transform: rotate(-45deg);
+}
+
+#peach:hover #leaf-bones {
+    transform: rotate(-45deg);
+}
+
+/* Avocado */
+#avocado-seed-shadow {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#avocado-seed {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+  
+#avocado-rice-small {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+  
+#avocado:hover #avocado-rice-small {
+    fill: #FFFE3B;
+}
+  
+#avocado:hover #avocado-seed {
+    fill: brown;
+    transform: scale(65%);
+}
+  
+#avocado:hover #avocado-seed-shadow {
+    transform: scale(65%);
+}
+  
+#avocado:hover #avocado-rice-small {
+    transform: scale(115%);
+}
