@@ -103,13 +103,13 @@ p {
   
 #avocado:hover #avocado-seed {
     fill: brown;
-    transform: scale(65%);
+    transform: scale(0.65);
 }
   
 #avocado:hover #avocado-seed-shadow {
-    transform: scale(65%);
+    transform: scale(0.65);
 }
   
 #avocado:hover #avocado-rice-small {
-    transform: scale(115%);
+    transform: scale(1.15);
 }
