@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="coconut" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 190.7 198.4">
+  <defs>
+    <style>
+      .coconut-1 {
+        fill: #8dc63f;
+      }
+
+      .coconut-1, .coconut-2, .coconut-3, .coconut-4, .coconut-5 {
+        stroke-width: 0px;
+      }
+
+      .coconut-2 {
+        fill: #f7941d;
+      }
+
+      .coconut-3 {
+        fill: #8b5e3c;
+      }
+
+      .coconut-4 {
+        fill: #726658;
+      }
+
+      .coconut-5 {
+        fill: #e6e7e8;
+      }
+    </style>
+  </defs>
+  <path id="coconut-peel" class="coconut-1" d="M185.3,105.8c0,51.2-41.5,92.6-92.6,92.6S0,157,0,105.8s3.2-27.8,9-39.9c0,.3,0,.5,0,.8,0,10.4,37.7,18.9,84.2,18.9s81.4-7.9,84-17.8c5.2,11.6,8.2,24.4,8.2,38Z"/>
+  <path id="coconut-brown" class="coconut-3" d="M177.3,66.7c0,10.4-37.7,18.9-84.2,18.9S8.9,77.1,8.9,66.7s37.7-18.9,84.2-18.9,84.2,8.5,84.2,18.9Z"/>
+  <path id="coconut-pulp" class="coconut-5" d="M147.8,66.6c0,6.8-24.5,12.3-54.7,12.3s-54.7-5.5-54.7-12.3,24.5-12.3,54.7-12.3,54.7,5.5,54.7,12.3Z"/>
+  <path id="coconut-inside" class="coconut-4" d="M134.2,69.3c0,5.1-18.4,9.3-41.1,9.3s-41.1-4.2-41.1-9.3,18.4-9.3,41.1-9.3,41.1,4.2,41.1,9.3Z"/>
+  <path id="straw" class="coconut-2" d="M188.3,20s-33.2-11.9-34.7-12.2-4.4.3-5.3,2.1-23.9,65.5-23.9,65.5l-6,1.3S143,5,143.9,3.2s2.6-2.8,5.4-3.2,41.3,14.1,41.3,14.1l-2.4,5.8Z"/>
+</svg>
