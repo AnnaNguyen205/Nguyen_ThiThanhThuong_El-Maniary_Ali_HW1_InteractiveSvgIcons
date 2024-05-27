@@ -34,12 +34,15 @@ p {
 
 .icon-container {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .icon-container div {
-    width: 33%;
+    width: 20%;
     padding: 40px 40px;
 }
 
